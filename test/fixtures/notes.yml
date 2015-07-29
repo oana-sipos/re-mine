@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  action: MyString
+  description: MyText
+  remind_date: 2015-07-29
+  status: false
+
+two:
+  action: MyString
+  description: MyText
+  remind_date: 2015-07-29
+  status: false
