@@ -1,22 +1,24 @@
-<p>
-  <strong>Action:</strong>
-  <%= @note.action %>
-</p>
+<div class="col-sm-4 col-sm-offset-4 space-top">
+  <p>
+    <strong>Action:</strong>
+    <%= @note.action %>
+  </p>
 
-<p>
-  <strong>Description:</strong>
-  <%= @note.description %>
-</p>
+  <p>
+    <strong>Description:</strong>
+    <%= @note.description %>
+  </p>
 
-<p>
-  <strong>Remind date:</strong>
-  <%= @note.remind_date %>
-</p>
+  <p>
+    <strong>Remind date:</strong>
+    <%= @note.remind_date %>
+  </p>
 
-<p>
-  <strong>Status:</strong>
-  <%= @note.status %>
-</p>
+  <p>
+    <strong>Status:</strong>
+    <%= @note.status %>
+  </p>
 
-<%= link_to 'Edit', edit_note_path(@note) %> |
-<%= link_to 'Back', notes_path %>
+  <%= link_to 'Edit', edit_note_path(@note) %> |
+  <%= link_to 'Back', notes_path %>
+</div>
